@@ -118,7 +118,7 @@ public class ReportViewController {
 
     @FXML
     void initialize() {
-        ObservableList<String> reportTypeList = FXCollections.observableArrayList("Полученная прибыль за период", "Предпологаемая прибыль");
+        ObservableList<String> reportTypeList = FXCollections.observableArrayList("Полученная прибыль за период", "Предполагаемая прибыль");
         reportType.setItems(reportTypeList);
         reportType.getSelectionModel().select(0);
         dateStartPicker.setValue(LocalDate.now());
